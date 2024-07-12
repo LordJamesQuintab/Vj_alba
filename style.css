@@ -182,17 +182,50 @@ nav ul li a:hover::after {
   color: rgb(203, 199, 199);
   background-color: #000;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .about-col-1 {
   flex-basis: 35%;
 }
+
 .about-col-1 img {
   width: 100%;
 }
+
+.Images {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Images img {
+  width: 150px; /* Adjust width as needed */
+  border-radius: 10px; /* Adjust the border-radius if needed */
+  margin-right: 5px; /* Space between image and text */
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.education-text {
+  max-width: 600px; /* Adjust width as needed */
+}
+
+.education-text h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff; /* Text color */
+}
+
+.education-text p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ccc; /* Text color */
+}
+
 .about-col-2 {
   flex-basis: 60%;
 }
@@ -226,6 +259,8 @@ nav ul li a:hover::after {
 }
 .tab-titles {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px 0 40px;
 }
 .tab-links {
@@ -239,7 +274,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #05179b;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -253,7 +288,7 @@ nav ul li a:hover::after {
   margin: 10px 0;
 }
 .tab-contents ul li span {
-  color: #b54769;
+  color: #55001b;
   font-size: 14px;
 }
 .tab-contents {
